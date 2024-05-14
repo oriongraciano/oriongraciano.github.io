@@ -234,6 +234,7 @@ footer>div {
 }
 
 footer>p {
+    justify-content: center;
     text-align: center;
 }
 
