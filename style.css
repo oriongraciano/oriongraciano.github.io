@@ -233,6 +233,10 @@ footer>div {
     flex-wrap: wrap;
 }
 
+footer>p {
+    text-align: center;
+}
+
 #my-projects-list {
     display: flex;
     gap: 2rem;
@@ -252,4 +256,3 @@ footer>div {
     transition: .4s;
     cursor: pointer;
 }
-
