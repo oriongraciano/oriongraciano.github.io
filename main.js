@@ -1,3 +1,17 @@
+'use strict'
+
+const openModal = () => document.getElementById('modal')
+    .classList.add('active')
+
+const closeModal = () => document.getElementById('modal')
+    .classList.remove('active')
+
+document.getElementById('cadastrarCliente')
+    .addEventListener('click', openModal)
+
+document.getElementById('modalClose')
+    .addEventListener('click', closeModal)
+    
 function getProjects() {
     const urlGitHub = 'https://api.github.com/users/oriongraciano/repos'
     var loadingElement = document.getElementById('loading')
