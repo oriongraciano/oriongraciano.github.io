@@ -22,7 +22,6 @@ const isValidFields = () => {
     return document.getElementById('form').reportValidity()
 }
 
-
 //Interação com Layout    
 
 const clearFields = () => {
@@ -85,6 +84,10 @@ document.getElementById('salvar')
 document.getElementById('cancelar')
     .addEventListener('click', closeModal)
 
+//Funçao de recarregar pagina
+function rolarParaTopo() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
 
 //Função de Linkar Projetos GitHub    
 function getProjects() {
