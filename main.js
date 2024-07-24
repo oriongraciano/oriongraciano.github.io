@@ -22,6 +22,7 @@ const isValidFields = () => {
     return document.getElementById('form').reportValidity()
 }
 
+
 //Interação com Layout    
 
 const clearFields = () => {
