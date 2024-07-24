@@ -52,7 +52,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    position: fixed; /* Torna o header fixo */
+    /*position: fixed;  Torna o header fixo */
     z-index: 1000; /* Garante que o header fique acima de outros elementos */
 }
 
