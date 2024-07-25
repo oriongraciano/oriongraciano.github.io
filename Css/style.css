@@ -56,6 +56,7 @@ header {
 .img-logo {
     max-width: 75px;
     height: 100%;
+    cursor: pointer;
 }
 
 nav {
@@ -242,7 +243,7 @@ footer>p {
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
-    padding: 2rem;
+    padding: 4rem;
     justify-content: center;
     align-items: center;
 }
