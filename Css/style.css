@@ -35,7 +35,7 @@
 body {
     background-color: var(--dark1);
     height: 100vh;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
 }
 
 header {
@@ -217,7 +217,9 @@ strong {
     padding: 2rem;
     max-width: 600px;
     color: var(--white);
-    text-align: center;
+    text-align: justify;
+    word-spacing: 0.5px;
+    hyphens: auto;
 }
 
 footer {
