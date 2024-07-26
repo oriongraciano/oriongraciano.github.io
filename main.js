@@ -85,7 +85,7 @@ document.getElementById('salvar')
 document.getElementById('cancelar')
     .addEventListener('click', closeModal)
 
-//Funçao de recarregar pagina
+//Funçao de Rolar Para Topo
 function rolarParaTopo() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
