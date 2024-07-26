@@ -215,9 +215,9 @@ strong {
 
 .third-section>div p {
     padding: 2rem;
-    max-width: 620px;
+    max-width: 500px;
     color: var(--white);
-    vertical-align: baseline;
+    text-align: justify;
     word-spacing: 0.5px;
     hyphens: auto;
 }
