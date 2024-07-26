@@ -208,8 +208,6 @@ strong {
     align-items: center;
     flex-wrap: wrap;
     text-align: left;
-    word-spacing: 0.5px;
-    hyphens: auto;
 }
 
 .third-section>div img {
