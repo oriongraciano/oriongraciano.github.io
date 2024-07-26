@@ -36,6 +36,7 @@ body {
     background-color: var(--dark1);
     height: 100vh;
     font-family: 'Lato', sans-serif;
+
 }
 
 header {
@@ -206,6 +207,9 @@ strong {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    text-align: justify;
+    word-spacing: 0.5px;
+    hyphens: auto;
 }
 
 .third-section>div img {
@@ -215,11 +219,8 @@ strong {
 
 .third-section>div p {
     padding: 2rem;
-    max-width: 500px;
+    max-width: 600px;
     color: var(--white);
-    text-align: justify;
-    word-spacing: 0.5px;
-    hyphens: auto;
 }
 
 footer {
