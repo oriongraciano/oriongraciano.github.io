@@ -207,7 +207,7 @@ strong {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    text-align: left;
+    text-align: center;
 }
 
 .third-section>div img {
