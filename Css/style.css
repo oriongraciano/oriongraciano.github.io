@@ -217,7 +217,7 @@ strong {
     padding: 2rem;
     max-width: 620px;
     color: var(--white);
-    text-align: justify;
+    vertical-align: baseline;
     word-spacing: 0.5px;
     hyphens: auto;
 }
