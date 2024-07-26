@@ -57,6 +57,7 @@ header {
     max-width: 75px;
     height: 100%;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 nav {
