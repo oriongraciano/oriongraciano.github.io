@@ -239,6 +239,7 @@ footer>div {
 footer>p {
     justify-content: center;
     text-align: center;
+    color: var(--dark5);
 }
 
 #my-projects-list {
