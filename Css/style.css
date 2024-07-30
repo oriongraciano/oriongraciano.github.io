@@ -216,6 +216,7 @@ strong {
 }
 
 .third-section>div p {
+    font-weight: bold;
     padding: 2rem;
     max-width: 600px;
     color: var(--white);
