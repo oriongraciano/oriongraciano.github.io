@@ -55,7 +55,7 @@ header {
 }
 
 .img-logo {
-    max-width: 75px;
+    max-width: 95px;
     height: 100%;
     cursor: pointer;
     border-radius: 5px;
@@ -186,7 +186,7 @@ strong {
 }
 
 .second-section ul li:hover {
-    color: var(--dark4);
+    color: var(--cyan1);
     transition: .4s;
     cursor: default;
 }
