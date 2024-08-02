@@ -276,6 +276,11 @@ footer>p {
         gap: 1rem;
     }
 
+    .first-section {
+        margin-top: 10rem;
+        padding: 1rem
+    }
+
     .box-btn-actions {
         flex-direction: column;
     }
