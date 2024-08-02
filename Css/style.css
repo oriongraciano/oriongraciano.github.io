@@ -124,11 +124,11 @@ section {
 
 .first-section {
     display: flex;
+    padding-top: 12rem;
     justify-content: space-evenly;
     gap: 2rem;
     flex-wrap: wrap;
     align-items: center;
-    min-height: 650px;
 }
 
 .first-section>div {
