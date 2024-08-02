@@ -159,7 +159,7 @@ strong {
 
 .img-profile {
     border-radius: 60%;
-    width: 85%;
+    width: 88%;
 }
 
 :is(.second-section, .fourth-section) {
@@ -281,9 +281,8 @@ footer>p {
     }
 
     .first-section {
-        flex-direction: column;
         text-align: center;
-        padding: 2rem;
+        padding: 10rem;
     }
 
     .box-img-main, .img-profile {
