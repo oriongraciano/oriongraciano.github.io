@@ -280,12 +280,8 @@ footer>p {
         flex-direction: column;
     }
 
-    .first-section {
-        text-align: center;
-        padding: 10rem;
-    }
-
-    .box-img-main, .img-profile {
+    .box-img-main,
+    .img-profile {
         max-width: 100%;
     }
 
@@ -294,11 +290,11 @@ footer>p {
         gap: 1rem;
     }
 
-    .third-section > div {
+    .third-section>div {
         flex-direction: column;
     }
 
-    footer > div {
+    footer>div {
         text-align: center;
     }
 }
@@ -309,7 +305,8 @@ footer>p {
         letter-spacing: 2px;
     }
 
-    .link-action, .btn-action {
+    .link-action,
+    .btn-action {
         font-size: 0.8rem;
     }
 
@@ -317,7 +314,7 @@ footer>p {
         padding: 1rem;
     }
 
-    .third-section > div p {
+    .third-section>div p {
         padding: 1rem;
     }
 }
