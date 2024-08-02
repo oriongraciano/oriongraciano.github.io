@@ -264,3 +264,61 @@ footer>p {
     transition: .4s;
     cursor: pointer;
 }
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .box-btn-actions {
+        flex-direction: column;
+    }
+
+    .first-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .box-img-main, .img-profile {
+        max-width: 100%;
+    }
+
+    .second-section ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .third-section > div {
+        flex-direction: column;
+    }
+
+    footer > div {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2.5rem;
+        letter-spacing: 2px;
+    }
+
+    .link-action, .btn-action {
+        font-size: 0.8rem;
+    }
+
+    .first-section {
+        padding: 1rem;
+    }
+
+    .third-section > div p {
+        padding: 1rem;
+    }
+}
