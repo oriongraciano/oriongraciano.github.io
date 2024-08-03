@@ -277,6 +277,8 @@ footer>p {
     }
 
     .first-section {
+        flex-direction: column;
+        text-align: center;
         margin-top: 12rem;
         padding: 1rem
     }
