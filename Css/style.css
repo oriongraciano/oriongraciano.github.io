@@ -124,7 +124,8 @@ section {
 
 .first-section {
     display: flex;
-    padding-top: 12rem;
+    margin-top: 10rem;
+    padding: 5rem;
     justify-content: space-evenly;
     gap: 2rem;
     flex-wrap: wrap;
@@ -280,7 +281,7 @@ footer>p {
         flex-direction: column;
         text-align: center;
         margin-top: 12rem;
-        padding: 1rem
+        padding: 2rem
     }
 
     .box-btn-actions {
