@@ -3,6 +3,17 @@ function rolarParaTopo() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
+
+function pgManutencao(){
+    alert("Pagina em manutenção. Tente novamente mais tarde!")
+}
+
+let cadastrar = document.querySelector("#cadastrarCliente")
+
+cadastrar.addEventListener("click", () => {
+    pgManutencao()
+})
+
 //Função de Linkar Projetos GitHub    
 function getProjects() {
     const urlGitHub = 'https://api.github.com/users/oriongraciano/repos'
