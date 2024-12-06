@@ -94,6 +94,8 @@ textarea {
 
 button {
     border: none;
+    background-color: var(--cyan1);
+    margin: 15px;
 }
 
 .box-img-header {
