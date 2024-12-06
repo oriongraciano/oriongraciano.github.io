@@ -4,15 +4,18 @@ function rolarParaTopo() {
 }
 
 
-function pgManutencao(){
-    alert("Pagina em manutenção. Tente novamente mais tarde!")
-}
+// Função de Abrir Modal
+const openModalButton = document.querySelector("#open-modal");
+const closeModal = document.querySelector("#close-modal");
+const modal = document.querySelector(".modal");
 
-let cadastrar = document.querySelector("#cadastrarCliente")
+openModalButton.addEventListener("click", function() {
+    modal.style.display ="flex"
+ })
 
-cadastrar.addEventListener("click", () => {
-    pgManutencao()
-})
+ closeModal.addEventListener("click", function() {
+    modal.style.display ="none"
+ })
 
 //Função de Linkar Projetos GitHub    
 function getProjects() {

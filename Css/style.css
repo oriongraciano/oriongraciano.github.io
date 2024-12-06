@@ -52,6 +52,50 @@ header {
     min-height: 50px;
 }
 
+.modal {
+    background-color: aliceblue;
+    color: var(--cyan1);
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    align-items: center;
+    width: 400px;
+    height: 350px;
+    border-radius: 12px;
+    display: none;
+    z-index: 99;
+}
+
+.modal h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+
+input {
+    width: 280px;
+    height: 28px;
+    display: block;
+    align-items: center;
+    margin-left: 58px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 280px;
+    height: 70px;
+    align-items: center;
+    margin-bottom: 10px
+}
+
+button {
+    border: none;
+}
+
 .box-img-header {
     height: 100%;
 }
