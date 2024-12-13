@@ -93,7 +93,7 @@ textarea {
     margin-bottom: 10px
 }
 
-button {
+.btnModal {
     border: none;
     background-color: var(--cyan1);
     margin: 15px;
