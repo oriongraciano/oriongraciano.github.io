@@ -320,6 +320,7 @@ footer>p {
     }
 
     header {
+        max-width: 100%;
         text-align: center;
     }
 
@@ -362,6 +363,10 @@ footer>p {
 
     img.logo {
         height: auto;
+    }
+
+    header {
+        max-width: 100%;
     }
 
     h1 {
