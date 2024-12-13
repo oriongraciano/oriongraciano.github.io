@@ -36,7 +36,6 @@ body {
     background-color: var(--dark1);
     height: 100vh;
     font-family: 'Lato', sans-serif;
-
 }
 
 header {
@@ -290,6 +289,7 @@ footer>p {
     justify-content: center;
     text-align: center;
     color: var(--dark5);
+    font-weight: bold;
 }
 
 #my-projects-list {
