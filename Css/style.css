@@ -237,7 +237,7 @@ strong {
 .second-section ul li:hover {
     color: var(--cyan1);
     transition: .4s;
-    cursor: default;
+    cursor: pointer;
 }
 
 .title {
