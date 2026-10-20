@@ -39,17 +39,19 @@ document.addEventListener("keydown", function (event) {
 const navToggle = document.querySelector("#nav-toggle");
 const mainNav = document.querySelector("#main-nav");
 
-navToggle.addEventListener("click", function () {
-    const isOpen = mainNav.classList.toggle("is-open");
-    navToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
-});
-
-mainNav.querySelectorAll(".nav-links").forEach(function (link) {
-    link.addEventListener("click", function () {
-        mainNav.classList.remove("is-open");
-        navToggle.setAttribute("aria-expanded", "false");
+if (navToggle && mainNav) {
+    navToggle.addEventListener("click", function () {
+        const isOpen = mainNav.classList.toggle("is-open");
+        navToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
     });
-});
+
+    mainNav.querySelectorAll(".nav-links").forEach(function (link) {
+        link.addEventListener("click", function () {
+            mainNav.classList.remove("is-open");
+            navToggle.setAttribute("aria-expanded", "false");
+        });
+    });
+}
 
 // Projetos do GitHub
 function getProjects() {
